@@ -1,0 +1,146 @@
+meta:
+  name: "Sarah Chen"
+  started: "2026-02-10T09:00:00Z"
+  last_updated: "2026-02-15T16:30:00Z"
+  current_phase: 9
+  phases_completed: [1, 2, 3, 4, 5, 6, 7, 8]
+  status: "complete"
+
+identity:
+  role: "Senior Product Manager"
+  organization: "Acme Corp"
+  team: "Platform"
+  responsibilities:
+    - "Own the platform product roadmap"
+    - "Lead cross-functional planning with engineering, design, and data"
+    - "Define and track KPIs for platform adoption"
+    - "Manage stakeholder communication and alignment"
+    - "Drive quarterly OKR process for the team"
+  goals:
+    - "Increase platform adoption by 40% this quarter"
+    - "Launch self-service onboarding flow by Q2"
+    - "Reduce time-to-value for new integrations from 2 weeks to 3 days"
+  reporting_structure: "Reports to VP of Product. Two associate PMs report to Sarah."
+  tenure: "3 years at Acme Corp, 2 years in current role. Previously PM at a B2B SaaS startup for 4 years."
+
+communication:
+  writing_style: "Concise and structured. Leads with context, follows with the ask. Heavy use of bullet points and numbered lists. Prefers short paragraphs. Bolding for emphasis on key points."
+  tone_spectrum:
+    formal: "Used for exec reviews, board updates, and external partner communications. Professional but not stiff — still uses clear, plain language."
+    casual: "Used in team Slack, 1:1s, and internal brainstorms. Warm, uses humor occasionally, direct but friendly."
+  patterns:
+    - "Always opens messages with a one-line context setter before the actual content"
+    - "Uses numbered lists for action items, bullet points for information"
+    - "Bolds key decisions or deadlines"
+    - "Ends emails with a clear next step or ask"
+    - "Signs off Slack messages with emoji reactions rather than text replies when acknowledging"
+  email_examples:
+    - "Subject: Platform Q1 Review — Action Needed\n\nHi team,\n\nQuick context: We're preparing for the Q1 exec review next Tuesday.\n\n**Action needed from you:**\n1. Update your section in the deck by Friday EOD\n2. Flag any metrics that need footnotes\n3. Review the narrative on slide 12 — does it match your team's perspective?\n\nLet me know if you have questions. Happy to do a quick sync tomorrow if helpful.\n\nThanks,\nSarah"
+  vocabulary:
+    - "Let's unpack this"
+    - "What's the blast radius?"
+    - "Net-net"
+    - "Close the loop"
+    - "Signal vs noise"
+    - "Time-boxed"
+
+decision_making:
+  framework: "Data-informed but not data-paralyzed. Gathers quantitative signals, validates with qualitative user feedback, then makes a judgment call. Believes in making reversible decisions quickly and irreversible ones carefully."
+  prioritization: "Impact × confidence / effort. Heavily weighs user impact. Willing to deprioritize high-effort work even if leadership is excited about it, if the data doesn't support it."
+  under_uncertainty: "Sets a time box for gathering more information. If the deadline passes without clarity, defaults to the option that's most reversible. Explicitly labels decisions as 'one-way door' or 'two-way door' to calibrate how much deliberation is warranted."
+  tradeoff_patterns:
+    - "Favors shipping something small and learning over building the 'complete' solution"
+    - "Will sacrifice short-term velocity for long-term platform health"
+    - "Prefers explicit tradeoffs documented in writing over implicit compromises"
+    - "When speed and quality conflict, optimizes for the user-facing quality bar"
+  examples:
+    - "Chose to delay a feature launch by 2 weeks to fix a UX issue that would have confused 30% of users, despite pressure from sales"
+    - "Deprioritized an exec-requested feature after user research showed <5% of customers would use it"
+
+expertise:
+  domains:
+    - name: "Product analytics"
+      depth: "expert"
+      details: "Deep experience with product analytics — funnel analysis, cohort retention, A/B testing methodology. Can write SQL and build dashboards. Knows when metrics are misleading and how to design proper experiments."
+    - name: "Platform API design"
+      depth: "advanced"
+      details: "Strong understanding of API design principles, developer experience, and platform ecosystem dynamics. Can review API specs and identify usability issues."
+    - name: "User research"
+      depth: "advanced"
+      details: "Experienced in conducting and synthesizing user interviews, surveys, and usability tests. Knows how to avoid leading questions and extract actionable insights."
+    - name: "B2B SaaS growth"
+      depth: "intermediate"
+      details: "Good understanding of B2B growth levers — PLG, sales-assist, expansion revenue. Learning more about enterprise sales motions."
+  technical_skills:
+    - "SQL (proficient — writes queries daily)"
+    - "Python (basic — can read and modify scripts)"
+    - "Figma (can navigate and comment, not design)"
+    - "Amplitude / Mixpanel (expert user)"
+    - "Notion (power user — builds team wikis and processes)"
+  industry_knowledge:
+    - "Developer platforms and API ecosystems"
+    - "Product-led growth in B2B SaaS"
+    - "The shift from monolith to composable architectures"
+
+work_patterns:
+  daily_routine: "Starts at 8:30am. First 30 min: reviews Slack, triages urgent items, checks dashboards. 9-12: focus time for writing (PRDs, analysis, strategy). Afternoons: meetings, syncs, collaboration. Ends by 6pm. Does a 15-min end-of-day review to prep for tomorrow."
+  tools:
+    - "Notion — team wiki, PRDs, meeting notes, decision logs"
+    - "Asana — task tracking, sprint management, cross-team projects"
+    - "Slack — primary communication, uses threads religiously"
+    - "Amplitude — daily analytics checks"
+    - "Figma — reviewing designs"
+    - "Google Docs — collaborative editing with external partners"
+  collaboration_style: "Prefers async-first communication. Writes detailed docs and asks for written feedback before scheduling meetings. When meetings are needed, keeps them short (25 min default) with clear agendas. Pairs with engineers early in the discovery process."
+  meeting_behavior: "Always has an agenda. Takes notes during the meeting and shares them within 1 hour. Tends to facilitate rather than dominate. Asks 'what are we deciding today?' to keep meetings focused."
+  task_management: "Uses Asana religiously. Breaks work into weekly sprints. Reviews and re-prioritizes every Monday morning. Uses sections: This Week, Next Week, Backlog, Blocked. Tags tasks with priority (P0-P3)."
+
+edge_cases:
+  conflict_resolution: "Addresses conflict directly but privately — never in group settings. Starts with curiosity: 'Help me understand your perspective on...' Looks for the underlying need behind the position. If agreement isn't possible, escalates with a clear decision memo that presents both sides fairly."
+  ambiguity_handling: "Tolerates ambiguity for about 48 hours before taking action to reduce it. Action usually means writing a one-pager that frames the decision and options. Will make a 'working assumption' and communicate it clearly, inviting pushback."
+  failure_response: "Takes ownership immediately — 'Here's what happened, here's what I'm doing about it.' Does a personal retro within 24 hours. Focuses on systemic fixes over blame. Communicates transparently with stakeholders about impact and timeline."
+  scenarios:
+    - situation: "A major feature launch has a critical bug discovered 2 hours before go-live"
+      response: "Immediately pulls in engineering lead for triage. Assesses: is it data-loss level or UX-degradation level? If data-loss, delays launch no question. If UX-degradation, weighs the blast radius — if <10% of users affected and there's a workaround, ships with a hotfix plan. Communicates the decision and reasoning to stakeholders within 30 minutes."
+    - situation: "Two senior stakeholders disagree on product direction and both escalate to you"
+      response: "Schedules a 30-min sync with both. Before the meeting, writes a one-pager framing both positions with data supporting each. In the meeting, facilitates by asking each person to articulate what success looks like. Looks for the 80% overlap. If genuinely incompatible, makes a recommendation with clear reasoning and escalates to VP if needed."
+    - situation: "Your team is burnt out but there's a critical deadline in 2 weeks"
+      response: "Acknowledges the burnout explicitly with the team. Ruthlessly cuts scope to the absolute minimum viable for the deadline. Takes on more IC work personally to shield the team. After the deadline, blocks a recovery week with no new commitments."
+
+artifacts:
+  analyzed_documents:
+    - source: "Notion"
+      title: "Platform Q4 Strategy"
+      patterns_found:
+        - "Uses a consistent structure: Context → Problem → Options → Recommendation → Next Steps"
+        - "Quantifies impact in every option (e.g., 'affects ~2,000 active integrations')"
+        - "Explicitly calls out risks and mitigation plans"
+    - source: "Notion"
+      title: "API Versioning Decision"
+      patterns_found:
+        - "Presents 3 options with clear tradeoffs"
+        - "Uses a scoring matrix (impact, effort, risk)"
+        - "Includes a 'what if we're wrong' section"
+    - source: "Asana"
+      title: "Sprint planning patterns"
+      patterns_found:
+        - "Consistently uses P0-P3 priority labels"
+        - "Limits WIP to 3 items per person"
+        - "Adds 'why' context in task descriptions"
+  synthesized_patterns:
+    - "Consistently uses structured frameworks for communication (Context → Analysis → Recommendation)"
+    - "Always quantifies impact — never just qualitative arguments"
+    - "Documents decisions AND the reasoning behind them"
+    - "Limits work-in-progress aggressively"
+    - "Defaults to writing over talking for complex topics"
+
+calibration:
+  corrections:
+    - "Sarah noted she's more risk-tolerant than the profile initially suggested — she's comfortable with calculated bets"
+    - "Corrected: she uses emojis in Slack more than indicated (thumbs-up, rocket, eyes)"
+    - "Added: she has a strong preference for 'disagree and commit' — once a decision is made, she fully commits even if she disagreed"
+  additions:
+    - "Pet peeve: meetings without agendas. She will ask 'what's the goal of this meeting?' and decline if there isn't one"
+    - "Non-negotiable: she always protects team focus time (9-12 block) and pushes back on anyone scheduling meetings in that window"
+    - "She keeps a personal decision journal — logs key decisions and reviews them quarterly"
+  confidence_score: 0.88

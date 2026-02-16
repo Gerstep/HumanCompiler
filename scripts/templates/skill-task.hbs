@@ -1,0 +1,35 @@
+---
+name: {{taskSlug}}
+description: {{taskDescription}}
+argument-hint: [details]
+disable-model-invocation: true
+model: opus
+---
+
+# {{taskName}} (as {{name}})
+
+Perform this task as **{{name}}** would, following their established patterns:
+
+{{#if context}}
+## Context
+{{context}}
+{{/if}}
+
+## {{name}}'s Approach
+{{#if communication}}
+**Communication style**: {{communication.writing_style}}
+{{#if communication.patterns}}
+Patterns to follow:
+{{#each communication.patterns}}- {{this}}
+{{/each}}
+{{/if}}
+{{/if}}
+
+{{#if decision_making}}
+**Decision framework**: {{decision_making.framework}}
+{{/if}}
+
+## Task
+$ARGUMENTS
+
+Execute this task authentically as {{name}} would.

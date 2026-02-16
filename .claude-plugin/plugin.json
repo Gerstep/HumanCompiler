@@ -1,0 +1,10 @@
+{
+  "name": "human-compiler",
+  "description": "Compile humans into AI agents through deep interviews. Conducts comprehensive behavioral interviews, analyzes work artifacts via MCP tools, and generates installable Claude Code plugins that embody a person's decision-making, communication style, and expertise.",
+  "version": "0.1.0",
+  "author": {
+    "name": "HumanCompiler"
+  },
+  "keywords": ["agent", "interview", "digital-twin", "compiler", "cowork"],
+  "license": "MIT"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "human-compiler",
+  "version": "0.1.0",
+  "description": "Compile humans into AI agents through deep interviews",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "generate": "bun run scripts/generate-plugin.ts"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.8",
+    "yaml": "^2.7.0"
+  },
+  "devDependencies": {
+    "vitest": "^3.0.0",
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
+  }
+}
