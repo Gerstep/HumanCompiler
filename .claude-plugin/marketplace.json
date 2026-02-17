@@ -1,0 +1,21 @@
+{
+  "name": "HumanCompiler",
+  "owner": {
+    "name": "Gerstep"
+  },
+  "metadata": {
+    "description": "Compile humans into AI agents through deep behavioral interviews"
+  },
+  "plugins": [
+    {
+      "name": "compile-human",
+      "source": "./",
+      "description": "Conduct deep behavioral interviews and generate installable Claude Code plugins that embody a person's decision-making, communication style, and expertise.",
+      "version": "0.1.0",
+      "homepage": "https://github.com/Gerstep/HumanCompiler",
+      "repository": "https://github.com/Gerstep/HumanCompiler",
+      "license": "MIT",
+      "keywords": ["agent", "interview", "digital-twin", "compiler", "cowork"]
+    }
+  ]
+}
